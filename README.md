@@ -1,2 +1,3 @@
 # Quiet
-	Quietвэ╣дйгсинрр╩хк(Vuihoti)╟╢уусно╥║╤с╟юх║╥(Kageroh: Shadow Corridor)║╒║╤╨з╟╣фшф╜║╥(Dark Deception)║╒лсиЗё╨йта╤(The Outlast Trials)╣дсно╥бъ╪╜рт╪╟к╪б╥жфвВ╤ЬЁи║ё
+	QuietФ─╩Г └Ф≤╞Г■╠Ф┬▒Д╦─Д╨╨(Vuihoti)Ф▄┴Г┘╖Ф╦╦Ф┬▐Ц─┼Е╫╠Е╩┼Ц─▀(Kageroh: Shadow Corridor)Ц─│Ц─┼И╩▒Ф ≈Ф╛╨И╙≈Ц─▀(Dark Deception)Ц─│И─┐Г■÷О╪ Х╞∙Г┌╪(The Outlast Trials)Г └Ф╦╦Ф┬▐И─╩Х╬▒Д╩╔Е▐┼Ф─²Х╥╞Е┬╤Д╫°Х─▄Ф┬░Ц─┌
+	Г■╠Д╨▌Х╣└Ф╨░Ф√┤Д╩╤Х©┤Е╓╖(17.3GB)Х©°Х©°Е╓╖Д╨▌GitHUBД╦┼И≥░О╪▄Ф∙┘Д╦█Ф▌╗И─│Е┬╟Х©≥И┤▄
