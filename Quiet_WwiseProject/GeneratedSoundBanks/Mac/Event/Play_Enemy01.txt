@@ -1,0 +1,14 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1387509567	Play_Enemy01			\Default Work Unit\Play_Enemy01	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2863913182	Enemy01Switch			\Default Work Unit\Enemy01Switch	
+
+Switch	ID	Name	Switch Group			Notes
+	1160234136	Normal	Enemy01Switch			
+	3126836862	Hunt	Enemy01Switch			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1613907064	MuteVolume			\Volume\MuteVolume	
+	1985131783	SoundEffectVolume			\Volume\SoundEffectVolume	
+

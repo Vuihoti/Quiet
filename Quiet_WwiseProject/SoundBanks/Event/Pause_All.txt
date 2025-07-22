@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3864097025	Pause_All			\Default Work Unit\Pause_All	把所有WWISE的音频暂停 
+

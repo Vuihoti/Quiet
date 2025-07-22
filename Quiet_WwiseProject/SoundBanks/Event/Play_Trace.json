@@ -1,0 +1,120 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "4291182377",
+    "Type": "Event",
+    "GUID": "{0F5A26A8-DC68-4F46-B969-B73EB0008F82}",
+    "Language": "SFX",
+    "Hash": "{9DFB216F-EC2C-2BB5-615C-EF803AC176DC}",
+    "ObjectPath": "Play_Trace",
+    "ShortName": "Play_Trace",
+    "Path": "Event/Play_Trace.bnk",
+    "Media": [
+     {
+      "Id": "609281968",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "HeartBeat.WAV",
+      "Path": "Media/609281968.wem",
+      "CachePath": "B6/{B6286E36-0663-32B6-43FF-D70A126AC39E}.wem"
+     },
+     {
+      "Id": "893737185",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Hunt.WAV",
+      "Path": "Media/893737185.wem",
+      "CachePath": "8B/{8B88842E-7027-3CB8-69D8-DBC2DE839F11}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4291182377",
+      "Name": "Play_Trace",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Trace",
+      "GUID": "{0F5A26A8-DC68-4F46-B969-B73EB0008F82}",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1100485266",
+         "Id": "1133794587",
+         "GUID": "{77E10E43-1EAC-419C-88F1-75E736E50081}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "609281968"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1100485266",
+         "Id": "3579833620",
+         "GUID": "{704C64F3-D80E-4DF1-8A48-6142CE9AAA13}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "893737185"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1613907064",
+      "Name": "MuteVolume",
+      "ObjectPath": "\\Game Parameters\\Volume\\MuteVolume",
+      "GUID": "{8A09063C-1C64-4ED8-B094-A86FA5B85E57}"
+     },
+     {
+      "Id": "1985131783",
+      "Name": "SoundEffectVolume",
+      "ObjectPath": "\\Game Parameters\\Volume\\SoundEffectVolume",
+      "GUID": "{D9208335-2DA6-45C1-B97E-861B14B9EAB6}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "1100485266",
+      "Name": "TraceStates",
+      "ObjectPath": "\\States\\Default Work Unit\\TraceStates",
+      "GUID": "{D8FCA0B3-991E-437F-92A5-DFF67422369B}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\TraceStates\\None",
+        "GUID": "{D257FBC4-B339-44DB-9CD3-6CB523A98F59}"
+       },
+       {
+        "Id": "1133794587",
+        "Name": "Near",
+        "ObjectPath": "\\States\\Default Work Unit\\TraceStates\\Near",
+        "GUID": "{77E10E43-1EAC-419C-88F1-75E736E50081}"
+       },
+       {
+        "Id": "3579833620",
+        "Name": "Trace",
+        "ObjectPath": "\\States\\Default Work Unit\\TraceStates\\Trace",
+        "GUID": "{704C64F3-D80E-4DF1-8A48-6142CE9AAA13}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{5B55CF7A-2BA4-3297-D41F-6FD879494678}"
+ }
+}

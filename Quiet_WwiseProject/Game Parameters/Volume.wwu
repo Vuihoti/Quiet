@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{386E08DF-E16D-40BA-8190-782A719479E8}" SchemaVersion="123">
+	<GameParameters>
+		<WorkUnit Name="Volume" ID="{386E08DF-E16D-40BA-8190-782A719479E8}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="TotalVolume" ID="{99AF2C36-EBA8-4DC1-96E2-52B41585E9BB}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="SoundEffectVolume" ID="{D9208335-2DA6-45C1-B97E-861B14B9EAB6}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="BackgroundVolume" ID="{D479346D-6A36-47D7-9E21-3814EADA27A8}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="VoiceVolume" ID="{48DBEEC0-42DA-4B28-950B-239D80C176CA}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="MuteVolume" ID="{8A09063C-1C64-4ED8-B094-A86FA5B85E57}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

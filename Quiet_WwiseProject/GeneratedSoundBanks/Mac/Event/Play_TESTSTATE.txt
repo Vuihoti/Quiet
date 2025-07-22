@@ -1,0 +1,19 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3381383633	Play_TESTSTATE			\Default Work Unit\Play_TESTSTATE	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	763730847	TestStates			\Default Work Unit\TestStates	
+
+State	ID	Name	State Group			Notes
+	748895195	None	TestStates			
+	1183803292	Far	TestStates			
+	1451272583	Close	TestStates			
+	2613425495	TooClose	TestStates			
+	3579833620	Trace	TestStates			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1613907064	MuteVolume			\Volume\MuteVolume	
+
+Effect plug-ins	ID	Name	Type				Notes
+	458613658	Gain (Custom)	Wwise Gain			
+

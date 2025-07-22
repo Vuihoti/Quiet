@@ -1,0 +1,12 @@
+{
+	"BuildId": "33043543",
+	"Modules": 
+	{
+		"StreamlineBlueprint": "UnrealEditor-StreamlineBlueprint-Win64-DebugGame.dll",
+		"StreamlineCore": "UnrealEditor-StreamlineCore-Win64-DebugGame.dll",
+		"StreamlineD3D11RHI": "UnrealEditor-StreamlineD3D11RHI-Win64-DebugGame.dll",
+		"StreamlineD3D12RHI": "UnrealEditor-StreamlineD3D12RHI-Win64-DebugGame.dll",
+		"StreamlineRHI": "UnrealEditor-StreamlineRHI-Win64-DebugGame.dll",
+		"StreamlineShaders": "UnrealEditor-StreamlineShaders-Win64-DebugGame.dll"
+	}
+}

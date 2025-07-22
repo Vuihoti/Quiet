@@ -1,0 +1,63 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1855682467",
+    "Type": "Event",
+    "GUID": "{017BA818-7A4C-4346-8B66-175EAC100A60}",
+    "Language": "SFX",
+    "Hash": "{A9650FFC-09A8-2719-4A90-B4A95AB2CD93}",
+    "ObjectPath": "Play_Mirror",
+    "ShortName": "Play_Mirror",
+    "Path": "Event/Play_Mirror.bnk",
+    "Media": [
+     {
+      "Id": "443585758",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mirror.wav",
+      "Path": "Media/443585758.wem",
+      "CachePath": "E3/{E3CC2F42-1B7F-9076-7E48-7EC38C7F8045}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1855682467",
+      "Name": "Play_Mirror",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Mirror",
+      "GUID": "{017BA818-7A4C-4346-8B66-175EAC100A60}",
+      "MaxAttenuation": "4800",
+      "DurationType": "OneShot",
+      "DurationMin": "170.05713",
+      "DurationMax": "170.05713",
+      "MediaRefs": [
+       {
+        "Id": "443585758"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1613907064",
+      "Name": "MuteVolume",
+      "ObjectPath": "\\Game Parameters\\Volume\\MuteVolume",
+      "GUID": "{8A09063C-1C64-4ED8-B094-A86FA5B85E57}"
+     },
+     {
+      "Id": "1985131783",
+      "Name": "SoundEffectVolume",
+      "ObjectPath": "\\Game Parameters\\Volume\\SoundEffectVolume",
+      "GUID": "{D9208335-2DA6-45C1-B97E-861B14B9EAB6}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{E628CFD6-2714-321E-2485-DD3D9DDD6C10}"
+ }
+}

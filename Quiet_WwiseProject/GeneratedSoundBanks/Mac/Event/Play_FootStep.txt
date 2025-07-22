@@ -1,0 +1,18 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1602358412	Play_FootStep			\Default Work Unit\Play_FootStep	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1834394558	Surface			\Default Work Unit\Surface	
+
+Switch	ID	Name	Switch Group			Notes
+	712897245	Mud	Surface			
+	1160234136	Normal	Surface			
+	1216965916	Stone	Surface			
+	2058049674	Wood	Surface			
+	2195636714	Dirt	Surface			
+	2473969246	Metal	Surface			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1613907064	MuteVolume			\Volume\MuteVolume	
+	1985131783	SoundEffectVolume			\Volume\SoundEffectVolume	
+

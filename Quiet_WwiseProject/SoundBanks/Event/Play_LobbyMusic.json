@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2102729959",
+    "Type": "Event",
+    "GUID": "{55FB10A0-A1EC-42FE-A602-9374C0A5398B}",
+    "Language": "SFX",
+    "Hash": "{FB0CE067-BCAF-C471-1FD8-B07C31D77936}",
+    "ObjectPath": "Play_LobbyMusic",
+    "ShortName": "Play_LobbyMusic",
+    "Path": "Event/Play_LobbyMusic.bnk",
+    "Media": [
+     {
+      "Id": "183614919",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "The Caretaker - E2 - And heart breaks.wav",
+      "Path": "Media/183614919.wem",
+      "CachePath": "05/{05A8EA5A-AD3E-EF26-2B97-E91FFE181575}.wem"
+     },
+     {
+      "Id": "257714602",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "森水垚 - 扭曲的梦境.wav",
+      "Path": "Media/257714602.wem",
+      "CachePath": "91/{914D1D3C-02EA-4C04-C25A-93A8CF0C34C8}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2102729959",
+      "Name": "Play_LobbyMusic",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_LobbyMusic",
+      "GUID": "{55FB10A0-A1EC-42FE-A602-9374C0A5398B}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "183614919"
+       },
+       {
+        "Id": "257714602"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1613907064",
+      "Name": "MuteVolume",
+      "ObjectPath": "\\Game Parameters\\Volume\\MuteVolume",
+      "GUID": "{8A09063C-1C64-4ED8-B094-A86FA5B85E57}"
+     },
+     {
+      "Id": "3987480799",
+      "Name": "BackgroundVolume",
+      "ObjectPath": "\\Game Parameters\\Volume\\BackgroundVolume",
+      "GUID": "{D479346D-6A36-47D7-9E21-3814EADA27A8}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{11CE213B-E32D-E350-0375-779DFA8F02E1}"
+ }
+}

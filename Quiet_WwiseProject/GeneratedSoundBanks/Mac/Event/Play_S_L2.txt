@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3967788982	Play_S_L2			\Default Work Unit\Play_S_L2	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	414646191	VoiceVolume			\Volume\VoiceVolume	
+

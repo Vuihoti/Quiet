@@ -1,0 +1,96 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1386446773",
+    "Type": "Event",
+    "GUID": "{B4136009-7D03-4FCD-B1CF-5D8EAE5C29B5}",
+    "Language": "SFX",
+    "Hash": "{08AC6ABD-6676-B7BA-15F1-D72D0674FAA6}",
+    "ObjectPath": "Play_CharacterRespwan",
+    "ShortName": "Play_CharacterRespwan",
+    "Path": "Event/Play_CharacterRespwan.bnk",
+    "Media": [
+     {
+      "Id": "376098453",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "CharacterRespwan.wav",
+      "Path": "Media/376098453.wem",
+      "CachePath": "9F/{9F5B4A0D-7C1E-05BE-8C33-4898B42E7E22}.wem"
+     }
+    ],
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "857154059",
+       "Name": "Gain (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\SoundEffect\\SE\\CharacterRespwan\\[Effect Slot [1]: (Gain)]\\Gain (Custom)",
+       "GUID": "{DDD3DCB8-A867-4FCA-B3C7-E03C2AB09D2A}",
+       "LibName": "Wwise Gain",
+       "LibId": "9109507"
+      }
+     ],
+     "ShareSets": [
+      {
+       "Id": "3487820010",
+       "Name": "One_Tap_Half_Second",
+       "ObjectPath": "\\Effects\\Factory Effects\\Delay\\One_Tap_Half_Second",
+       "GUID": "{B8FE0D3B-7AAB-4344-89FE-177602B7BF19}",
+       "LibName": "Wwise Delay",
+       "LibId": "6946819"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "1386446773",
+      "Name": "Play_CharacterRespwan",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_CharacterRespwan",
+      "GUID": "{B4136009-7D03-4FCD-B1CF-5D8EAE5C29B5}",
+      "DurationType": "OneShot",
+      "DurationMin": "6.1366873",
+      "DurationMax": "6.1366873",
+      "MediaRefs": [
+       {
+        "Id": "376098453"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "857154059"
+        }
+       ],
+       "ShareSets": [
+        {
+         "Id": "3487820010"
+        }
+       ]
+      }
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1613907064",
+      "Name": "MuteVolume",
+      "ObjectPath": "\\Game Parameters\\Volume\\MuteVolume",
+      "GUID": "{8A09063C-1C64-4ED8-B094-A86FA5B85E57}"
+     },
+     {
+      "Id": "1985131783",
+      "Name": "SoundEffectVolume",
+      "ObjectPath": "\\Game Parameters\\Volume\\SoundEffectVolume",
+      "GUID": "{D9208335-2DA6-45C1-B97E-861B14B9EAB6}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{36004E1D-AE1A-F36D-6C86-B8FD3B76309F}"
+ }
+}

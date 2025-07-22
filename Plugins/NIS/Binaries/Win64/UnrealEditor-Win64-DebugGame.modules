@@ -1,0 +1,9 @@
+{
+	"BuildId": "33043543",
+	"Modules": 
+	{
+		"NISBlueprint": "UnrealEditor-NISBlueprint-Win64-DebugGame.dll",
+		"NISCore": "UnrealEditor-NISCore-Win64-DebugGame.dll",
+		"NISShaders": "UnrealEditor-NISShaders-Win64-DebugGame.dll"
+	}
+}

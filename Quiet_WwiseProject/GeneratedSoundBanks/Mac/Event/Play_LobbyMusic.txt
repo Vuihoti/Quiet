@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2102729959	Play_LobbyMusic			\Default Work Unit\Play_LobbyMusic	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1613907064	MuteVolume			\Volume\MuteVolume	
+	3987480799	BackgroundVolume			\Volume\BackgroundVolume	
+

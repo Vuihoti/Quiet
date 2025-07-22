@@ -1,0 +1,15 @@
+{
+	"BuildId": "33043543",
+	"Modules": 
+	{
+		"DLSS": "UnrealEditor-DLSS-Win64-DebugGame.dll",
+		"DLSSBlueprint": "UnrealEditor-DLSSBlueprint-Win64-DebugGame.dll",
+		"DLSSEditor": "UnrealEditor-DLSSEditor-Win64-DebugGame.dll",
+		"DLSSUtility": "UnrealEditor-DLSSUtility-Win64-DebugGame.dll",
+		"NGXD3D11RHI": "UnrealEditor-NGXD3D11RHI-Win64-DebugGame.dll",
+		"NGXD3D12RHI": "UnrealEditor-NGXD3D12RHI-Win64-DebugGame.dll",
+		"NGXRHI": "UnrealEditor-NGXRHI-Win64-DebugGame.dll",
+		"NGXVulkanRHI": "UnrealEditor-NGXVulkanRHI-Win64-DebugGame.dll",
+		"NGXVulkanRHIPreInit": "UnrealEditor-NGXVulkanRHIPreInit-Win64-DebugGame.dll"
+	}
+}

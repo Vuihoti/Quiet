@@ -1,0 +1,63 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "387320433",
+    "Type": "Event",
+    "GUID": "{32C1F2FE-F6CF-457A-9E3A-EF20AD1C758B}",
+    "Language": "SFX",
+    "Hash": "{C5D7927E-D64C-56BA-B8FB-988ED7A550DA}",
+    "ObjectPath": "Play_Firecracker",
+    "ShortName": "Play_Firecracker",
+    "Path": "Event/Play_Firecracker.bnk",
+    "Media": [
+     {
+      "Id": "55076290",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "鞭炮.WAV",
+      "Path": "Media/55076290.wem",
+      "CachePath": "D6/{D6EC5163-432E-16C5-ADCD-ADB329B13230}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "387320433",
+      "Name": "Play_Firecracker",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Firecracker",
+      "GUID": "{32C1F2FE-F6CF-457A-9E3A-EF20AD1C758B}",
+      "MaxAttenuation": "7500",
+      "DurationType": "OneShot",
+      "DurationMin": "16.114649",
+      "DurationMax": "16.114649",
+      "MediaRefs": [
+       {
+        "Id": "55076290"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1613907064",
+      "Name": "MuteVolume",
+      "ObjectPath": "\\Game Parameters\\Volume\\MuteVolume",
+      "GUID": "{8A09063C-1C64-4ED8-B094-A86FA5B85E57}"
+     },
+     {
+      "Id": "1985131783",
+      "Name": "SoundEffectVolume",
+      "ObjectPath": "\\Game Parameters\\Volume\\SoundEffectVolume",
+      "GUID": "{D9208335-2DA6-45C1-B97E-861B14B9EAB6}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{DE25AD3B-80B3-085C-9A65-094A77C7C3B1}"
+ }
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4A084544-823A-4DF1-8EC7-A11C69D4A8D4}" SchemaVersion="123">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{4A084544-823A-4DF1-8EC7-A11C69D4A8D4}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="TestStates" ID="{DBAB775F-8697-42C1-ACC1-85E099E1A819}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="2"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{C709436C-0094-4FA4-AB47-BA14498740D6}"/>
+						<State Name="Far" ID="{6D56B50A-D6E3-41A3-B5E0-C420BB190A60}"/>
+						<State Name="Close" ID="{D0316577-B619-4C40-8091-F93AB9DE2F6A}"/>
+						<State Name="TooClose" ID="{72BE9463-647C-4EA6-9ADF-1DF75435F0FE}"/>
+						<State Name="Trace" ID="{975C25C6-D857-449D-A255-42B75F3E0EEE}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="TooClose" ID="{72BE9463-647C-4EA6-9ADF-1DF75435F0FE}"/>
+							<EndState Name="Trace" ID="{975C25C6-D857-449D-A255-42B75F3E0EEE}"/>
+							<Time>2</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Close" ID="{D0316577-B619-4C40-8091-F93AB9DE2F6A}"/>
+							<EndState Name="TooClose" ID="{72BE9463-647C-4EA6-9ADF-1DF75435F0FE}"/>
+							<Time>2</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="None" ID="{C709436C-0094-4FA4-AB47-BA14498740D6}"/>
+							<EndState Name="Far" ID="{6D56B50A-D6E3-41A3-B5E0-C420BB190A60}"/>
+							<Time>2</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Far" ID="{6D56B50A-D6E3-41A3-B5E0-C420BB190A60}"/>
+							<EndState Name="Close" ID="{D0316577-B619-4C40-8091-F93AB9DE2F6A}"/>
+							<Time>2</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+				<StateGroup Name="TraceStates" ID="{D8FCA0B3-991E-437F-92A5-DFF67422369B}">
+					<ChildrenList>
+						<State Name="None" ID="{D257FBC4-B339-44DB-9CD3-6CB523A98F59}"/>
+						<State Name="Near" ID="{77E10E43-1EAC-419C-88F1-75E736E50081}"/>
+						<State Name="Trace" ID="{704C64F3-D80E-4DF1-8A48-6142CE9AAA13}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="None" ID="{D257FBC4-B339-44DB-9CD3-6CB523A98F59}"/>
+							<EndState Name="Near" ID="{77E10E43-1EAC-419C-88F1-75E736E50081}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Trace" ID="{704C64F3-D80E-4DF1-8A48-6142CE9AAA13}"/>
+							<EndState Name="None" ID="{D257FBC4-B339-44DB-9CD3-6CB523A98F59}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

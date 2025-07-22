@@ -1,0 +1,11 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1386446773	Play_CharacterRespwan			\Default Work Unit\Play_CharacterRespwan	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1613907064	MuteVolume			\Volume\MuteVolume	
+	1985131783	SoundEffectVolume			\Volume\SoundEffectVolume	
+
+Effect plug-ins	ID	Name	Type				Notes
+	857154059	Gain (Custom)	Wwise Gain			
+	3487820010	One_Tap_Half_Second	Wwise Delay			
+

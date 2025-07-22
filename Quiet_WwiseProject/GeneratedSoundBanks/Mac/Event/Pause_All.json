@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3864097025",
+    "Type": "Event",
+    "GUID": "{D9F8F918-9937-4D20-BFE3-1B04D346A413}",
+    "Language": "SFX",
+    "Hash": "{8BF05011-C5CB-EA59-5424-C04E0C04725B}",
+    "ObjectPath": "Pause_All",
+    "ShortName": "Pause_All",
+    "Path": "Event/Pause_All.bnk",
+    "Events": [
+     {
+      "Id": "3864097025",
+      "Name": "Pause_All",
+      "ObjectPath": "\\Events\\Default Work Unit\\Pause_All",
+      "GUID": "{D9F8F918-9937-4D20-BFE3-1B04D346A413}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{8AA19B34-DDE0-33A5-36DB-DE09F51C3201}"
+ }
+}

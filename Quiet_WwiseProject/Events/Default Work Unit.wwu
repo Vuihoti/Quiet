@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{30085074-DC18-4353-A5EC-2A997EBCEF44}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{30085074-DC18-4353-A5EC-2A997EBCEF44}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Environment_EV" ID="{A119BB48-7297-4DF1-88CF-ED72C2AD48BC}">
+					<ChildrenList>
+						<Action Name="" ID="{D70D8089-EA76-4817-AE51-2BB8C79E4A16}" ShortID="445656488">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="EVTest" ID="{A68B8BE2-DB4C-4205-A88D-4D200DFAC097}" WorkUnitID="{3F386634-1D76-4ABB-9B43-094E02A9584E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TestYeah" ID="{4DDB1CEE-288A-427A-A60E-A16810578DC7}">
+					<ChildrenList>
+						<Action Name="" ID="{932E1141-9BD8-468B-B916-832A640C6457}" ShortID="79974101">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TestA" ID="{524E5A4B-4066-463D-95D0-F9E1CE254BA4}" WorkUnitID="{9ED8DDCC-DBF8-4D02-9530-11FC89F45DE6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FootStep" ID="{62BB83D7-7EE7-467E-BA49-92CE90DDC071}">
+					<ChildrenList>
+						<Action Name="" ID="{13ADA268-3814-42AE-821C-D20392217FD7}" ShortID="802649734">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FootStep" ID="{CD5A7722-DB69-45CE-ADF9-F05F43C85FB7}" WorkUnitID="{3F386634-1D76-4ABB-9B43-094E02A9584E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_LobbyMusic" ID="{55FB10A0-A1EC-42FE-A602-9374C0A5398B}">
+					<ChildrenList>
+						<Action Name="" ID="{827B772D-FB77-450D-B977-DAA3699991E7}" ShortID="1046793743">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LobbyMusic" ID="{AB217066-2BA7-4C74-988A-BFCFFD26847E}" WorkUnitID="{3F386634-1D76-4ABB-9B43-094E02A9584E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TESTSTATE" ID="{307CB858-6EDE-45F5-B59B-B26337BE7BF4}">
+					<ChildrenList>
+						<Action Name="" ID="{53AFA48E-87AB-4424-8AE0-944216EBDCBF}" ShortID="690178296">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TESTSTATE" ID="{10F17347-4B8B-4919-AE05-9032E7BECF60}" WorkUnitID="{3F386634-1D76-4ABB-9B43-094E02A9584E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Pause_All" ID="{D9F8F918-9937-4D20-BFE3-1B04D346A413}">
+					<Comment>把所有WWISE的音频暂停
+</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{E7EF41B2-EA59-450D-A68A-7A48B1102C3A}" ShortID="977713465">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="8"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Resume_All" ID="{269CC588-0984-4A12-8EC2-86B935BED668}">
+					<Comment>恢复所有WWISE的音频
+</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{0B8B7D75-ED49-445E-9D08-B6A7337EB491}" ShortID="972392828">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="10"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Trace" ID="{0F5A26A8-DC68-4F46-B969-B73EB0008F82}">
+					<ChildrenList>
+						<Action Name="" ID="{7AA550D1-A51E-4ADA-BE11-DEB6D61E30EF}" ShortID="759771386">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Trace" ID="{F15E40E7-B143-4950-B6CD-8D8DA1999E0A}" WorkUnitID="{3F386634-1D76-4ABB-9B43-094E02A9584E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Enemy01" ID="{614C6C6C-FF1E-4667-8526-91BF192DE72C}">
+					<ChildrenList>
+						<Action Name="" ID="{8E50AEC6-399C-4835-860D-858AA3922AF2}" ShortID="30683581">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Enemy01" ID="{4BD05A9F-0F58-458B-8392-4F6FEBA97773}" WorkUnitID="{3F386634-1D76-4ABB-9B43-094E02A9584E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Mirror" ID="{017BA818-7A4C-4346-8B66-175EAC100A60}">
+					<ChildrenList>
+						<Action Name="" ID="{F292F85A-1B4E-46AD-A77A-9CDAD9713406}" ShortID="1019107021">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mirror" ID="{FFA279AF-8D13-4DA3-8834-94B81DD7CDD3}" WorkUnitID="{3F386634-1D76-4ABB-9B43-094E02A9584E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_S_L2" ID="{E04E9BD3-F3A4-485B-B436-89D1AC8B884E}">
+					<ChildrenList>
+						<Action Name="" ID="{AAA27F02-DD7E-4314-8DAC-ED5B76A30028}" ShortID="503853444">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="S_L2" ID="{7AB86E8B-6B7A-4BBC-B090-287724D8A2E0}" WorkUnitID="{3F386634-1D76-4ABB-9B43-094E02A9584E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Firecracker" ID="{32C1F2FE-F6CF-457A-9E3A-EF20AD1C758B}">
+					<ChildrenList>
+						<Action Name="" ID="{4A7709BE-D300-40E1-B051-6DAD7286271C}" ShortID="583203915">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Firecracker" ID="{BF4BD75B-4DEF-4DA4-8087-572E83A92086}" WorkUnitID="{3F386634-1D76-4ABB-9B43-094E02A9584E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_CharacterRespwan" ID="{B4136009-7D03-4FCD-B1CF-5D8EAE5C29B5}">
+					<ChildrenList>
+						<Action Name="" ID="{FEDFA779-3A16-4832-9890-B04E5648220F}" ShortID="130353157">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CharacterRespwan" ID="{873002E5-5694-47FB-8511-7D0F08A0A45A}" WorkUnitID="{3F386634-1D76-4ABB-9B43-094E02A9584E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

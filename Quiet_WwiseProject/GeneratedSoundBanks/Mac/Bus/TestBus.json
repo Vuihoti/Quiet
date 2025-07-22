@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1966988073",
+    "Type": "Bus",
+    "GUID": "{654F5DB5-82A1-4F08-913D-9DBECC431B75}",
+    "Language": "SFX",
+    "Hash": "{7D963FFD-270D-CB8E-5D03-8BBB6E9AB412}",
+    "ObjectPath": "TestBus",
+    "ShortName": "TestBus",
+    "Path": "Bus/TestBus.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "2171127646",
+       "Name": "Hall_Conversation",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Conversation",
+       "GUID": "{E2C3BD70-E5E4-46A5-BDA6-99A92FAAC1AC}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "1966988073",
+      "Name": "TestBus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\TestBus",
+      "GUID": "{654F5DB5-82A1-4F08-913D-9DBECC431B75}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2171127646"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{14906831-AF48-7AE3-40BE-DD914A745A84}"
+ }
+}

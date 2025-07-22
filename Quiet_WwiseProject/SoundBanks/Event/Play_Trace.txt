@@ -1,0 +1,15 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4291182377	Play_Trace			\Default Work Unit\Play_Trace	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1100485266	TraceStates			\Default Work Unit\TraceStates	
+
+State	ID	Name	State Group			Notes
+	748895195	None	TraceStates			
+	1133794587	Near	TraceStates			
+	3579833620	Trace	TraceStates			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1613907064	MuteVolume			\Volume\MuteVolume	
+	1985131783	SoundEffectVolume			\Volume\SoundEffectVolume	
+

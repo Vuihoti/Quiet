@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1855682467	Play_Mirror			\Default Work Unit\Play_Mirror	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1613907064	MuteVolume			\Volume\MuteVolume	
+	1985131783	SoundEffectVolume			\Volume\SoundEffectVolume	
+

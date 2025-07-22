@@ -1,0 +1,27 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	763730847	TestStates			\Default Work Unit\TestStates	
+	1100485266	TraceStates			\Default Work Unit\TraceStates	
+
+State	ID	Name	State Group			Notes
+	748895195	None	TestStates			
+	1183803292	Far	TestStates			
+	1451272583	Close	TestStates			
+	2613425495	TooClose	TestStates			
+	3579833620	Trace	TestStates			
+	748895195	None	TraceStates			
+	1133794587	Near	TraceStates			
+	3579833620	Trace	TraceStates			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	1966988073	TestBus			\Default Work Unit\Master Audio Bus\TestBus	
+
+Effect plug-ins	ID	Name	Type				Notes
+	2171127646	Hall_Conversation	Wwise RoomVerb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

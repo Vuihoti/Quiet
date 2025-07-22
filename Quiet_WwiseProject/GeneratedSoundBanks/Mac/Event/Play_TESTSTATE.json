@@ -1,0 +1,210 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3381383633",
+    "Type": "Event",
+    "GUID": "{307CB858-6EDE-45F5-B59B-B26337BE7BF4}",
+    "Language": "SFX",
+    "Hash": "{ECE97E31-9D8F-1890-E2D2-3FB01BFD1B02}",
+    "ObjectPath": "Play_TESTSTATE",
+    "ShortName": "Play_TESTSTATE",
+    "Path": "Event/Play_TESTSTATE.bnk",
+    "Media": [
+     {
+      "Id": "38937424",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "TooClose 军团.WAV",
+      "Path": "Media/38937424.wem",
+      "CachePath": "08/{08175968-E3FF-A223-BA71-242D4F038994}.wem"
+     },
+     {
+      "Id": "342774947",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Close 军团.WAV",
+      "Path": "Media/342774947.wem",
+      "CachePath": "80/{80A53C61-896A-B1C4-E8E6-C1489FA141F6}.wem"
+     },
+     {
+      "Id": "471789241",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Far 军团.WAV",
+      "Path": "Media/471789241.wem",
+      "CachePath": "8C/{8CCEF2B0-006B-A894-554A-CFFE4BC762C9}.wem"
+     },
+     {
+      "Id": "575268850",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Trace 军团.WAV",
+      "Path": "Media/575268850.wem",
+      "CachePath": "A1/{A1915F3B-0451-D2BD-65FC-8A8C3B506652}.wem"
+     }
+    ],
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "458613658",
+       "Name": "Gain (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\TESTSTATE\\[Effect Slot [0]: (Gain)]\\Gain (Custom)",
+       "GUID": "{A97DD856-9D6C-47BB-B7C1-017478488C4D}",
+       "LibName": "Wwise Gain",
+       "LibId": "9109507"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "3381383633",
+      "Name": "Play_TESTSTATE",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_TESTSTATE",
+      "GUID": "{307CB858-6EDE-45F5-B59B-B26337BE7BF4}",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "763730847",
+         "Id": "1183803292",
+         "GUID": "{6D56B50A-D6E3-41A3-B5E0-C420BB190A60}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "471789241"
+         }
+        ],
+        "PluginRefs": {
+         "Custom": [
+          {
+           "Id": "458613658"
+          }
+         ]
+        }
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "763730847",
+         "Id": "2613425495",
+         "GUID": "{72BE9463-647C-4EA6-9ADF-1DF75435F0FE}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "38937424"
+         }
+        ],
+        "PluginRefs": {
+         "Custom": [
+          {
+           "Id": "458613658"
+          }
+         ]
+        }
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "763730847",
+         "Id": "1451272583",
+         "GUID": "{D0316577-B619-4C40-8091-F93AB9DE2F6A}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "342774947"
+         }
+        ],
+        "PluginRefs": {
+         "Custom": [
+          {
+           "Id": "458613658"
+          }
+         ]
+        }
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "763730847",
+         "Id": "3579833620",
+         "GUID": "{975C25C6-D857-449D-A255-42B75F3E0EEE}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "575268850"
+         }
+        ],
+        "PluginRefs": {
+         "Custom": [
+          {
+           "Id": "458613658"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1613907064",
+      "Name": "MuteVolume",
+      "ObjectPath": "\\Game Parameters\\Volume\\MuteVolume",
+      "GUID": "{8A09063C-1C64-4ED8-B094-A86FA5B85E57}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "763730847",
+      "Name": "TestStates",
+      "ObjectPath": "\\States\\Default Work Unit\\TestStates",
+      "GUID": "{DBAB775F-8697-42C1-ACC1-85E099E1A819}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\TestStates\\None",
+        "GUID": "{C709436C-0094-4FA4-AB47-BA14498740D6}"
+       },
+       {
+        "Id": "1183803292",
+        "Name": "Far",
+        "ObjectPath": "\\States\\Default Work Unit\\TestStates\\Far",
+        "GUID": "{6D56B50A-D6E3-41A3-B5E0-C420BB190A60}"
+       },
+       {
+        "Id": "1451272583",
+        "Name": "Close",
+        "ObjectPath": "\\States\\Default Work Unit\\TestStates\\Close",
+        "GUID": "{D0316577-B619-4C40-8091-F93AB9DE2F6A}"
+       },
+       {
+        "Id": "2613425495",
+        "Name": "TooClose",
+        "ObjectPath": "\\States\\Default Work Unit\\TestStates\\TooClose",
+        "GUID": "{72BE9463-647C-4EA6-9ADF-1DF75435F0FE}"
+       },
+       {
+        "Id": "3579833620",
+        "Name": "Trace",
+        "ObjectPath": "\\States\\Default Work Unit\\TestStates\\Trace",
+        "GUID": "{975C25C6-D857-449D-A255-42B75F3E0EEE}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{B92983F1-EB11-453C-76AD-66028B9AAFD2}"
+ }
+}

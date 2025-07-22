@@ -1,0 +1,116 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3967788982",
+    "Type": "Event",
+    "GUID": "{E04E9BD3-F3A4-485B-B436-89D1AC8B884E}",
+    "Language": "SFX",
+    "Hash": "{0C6E42F0-7BD2-1553-19CC-4E6AC6DC242C}",
+    "ObjectPath": "Play_S_L2",
+    "ShortName": "Play_S_L2",
+    "Path": "Event/Play_S_L2.bnk",
+    "Media": [
+     {
+      "Id": "188756298",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "S_L2_5m.wav",
+      "Path": "Media/188756298.wem",
+      "CachePath": "1E/{1E1CFD26-43CB-1F38-1532-6D329B6F0571}.wem"
+     },
+     {
+      "Id": "469096609",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "S_L2_1m.wav",
+      "Path": "Media/469096609.wem",
+      "CachePath": "C9/{C92FC739-65C2-1924-481F-76A27EF39538}.wem"
+     },
+     {
+      "Id": "523518988",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "S_L2_30s.wav",
+      "Path": "Media/523518988.wem",
+      "CachePath": "CE/{CEC062C9-DF21-D3F7-A9EA-F66935EB0467}.wem"
+     },
+     {
+      "Id": "697916843",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "S_L2_Finish.wav",
+      "Path": "Media/697916843.wem",
+      "CachePath": "1F/{1F78637D-178F-3C8C-9EC4-192E53852FA3}.wem"
+     },
+     {
+      "Id": "739918207",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "S_L2_10m.wav",
+      "Path": "Media/739918207.wem",
+      "CachePath": "1B/{1B1CCA88-B76E-C964-5891-443A3BEE39FD}.wem"
+     },
+     {
+      "Id": "819140959",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "S_L2_15m.wav",
+      "Path": "Media/819140959.wem",
+      "CachePath": "26/{268B626E-F1E3-3CBC-A1ED-D1170DC04ACC}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3967788982",
+      "Name": "Play_S_L2",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_S_L2",
+      "GUID": "{E04E9BD3-F3A4-485B-B436-89D1AC8B884E}",
+      "DurationType": "OneShot",
+      "DurationMin": "10.041179",
+      "DurationMax": "47.106033",
+      "MediaRefs": [
+       {
+        "Id": "188756298"
+       },
+       {
+        "Id": "469096609"
+       },
+       {
+        "Id": "523518988"
+       },
+       {
+        "Id": "697916843"
+       },
+       {
+        "Id": "739918207"
+       },
+       {
+        "Id": "819140959"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "414646191",
+      "Name": "VoiceVolume",
+      "ObjectPath": "\\Game Parameters\\Volume\\VoiceVolume",
+      "GUID": "{48DBEEC0-42DA-4B28-950B-239D80C176CA}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{C227A104-B513-F2C5-3151-9FA14255FABD}"
+ }
+}

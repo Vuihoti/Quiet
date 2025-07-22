@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3679762312",
+    "Type": "Event",
+    "GUID": "{269CC588-0984-4A12-8EC2-86B935BED668}",
+    "Language": "SFX",
+    "Hash": "{36AC2925-129B-6A18-3BA5-71FCCC71CBFE}",
+    "ObjectPath": "Resume_All",
+    "ShortName": "Resume_All",
+    "Path": "Event/Resume_All.bnk",
+    "Events": [
+     {
+      "Id": "3679762312",
+      "Name": "Resume_All",
+      "ObjectPath": "\\Events\\Default Work Unit\\Resume_All",
+      "GUID": "{269CC588-0984-4A12-8EC2-86B935BED668}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{59CAE745-CFBB-575F-C636-36DE3894AF6D}"
+ }
+}

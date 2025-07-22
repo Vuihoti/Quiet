@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3161908922",
+    "Type": "User",
+    "GUID": "{DCF9472B-5799-460A-9DF2-C1FE3A0618A1}",
+    "Language": "SFX",
+    "Hash": "{686AD213-DF27-B772-49F8-B3B6DE2B4581}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
+    "ShortName": "Main",
+    "Path": "Main.bnk",
+    "Media": [
+     {
+      "Id": "265216636",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "郭易YoYo - 羊羊顶呱呱.wav",
+      "CachePath": "5E/{5E579D12-4248-4909-08EC-AC5FF73F5C08}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "162098726",
+      "Name": "Environment_EV",
+      "ObjectPath": "\\Events\\Default Work Unit\\Environment_EV",
+      "GUID": "{A119BB48-7297-4DF1-88CF-ED72C2AD48BC}",
+      "DurationType": "OneShot",
+      "DurationMin": "170.73633",
+      "DurationMax": "170.73633",
+      "MediaRefs": [
+       {
+        "Id": "265216636"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{71CD0C47-2396-D6A6-17E6-EB3CDE11DD2C}"
+ }
+}

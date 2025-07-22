@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5818D468-3A24-48C7-B3DA-189E22A17E42}" SchemaVersion="123">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{5818D468-3A24-48C7-B3DA-189E22A17E42}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Player" ID="{8166443C-D43A-4CB8-8FD4-2F4CF46A4017}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="FootStep" ID="{CD5A7722-DB69-45CE-ADF9-F05F43C85FB7}" WorkUnitID="{3F386634-1D76-4ABB-9B43-094E02A9584E}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Trace" ID="{F15E40E7-B143-4950-B6CD-8D8DA1999E0A}" WorkUnitID="{3F386634-1D76-4ABB-9B43-094E02A9584E}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="MuteVolume" ID="{8A09063C-1C64-4ED8-B094-A86FA5B85E57}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Trace" ID="{975C25C6-D857-449D-A255-42B75F3E0EEE}"/>
+						<CurrentStateRef Name="Trace" ID="{704C64F3-D80E-4DF1-8A48-6142CE9AAA13}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Dirt" ID="{0D51F5FF-0973-4CBE-87C1-147D0FF3594E}"/>
+						<CurrentSwitchRef Name="Hunt" ID="{87A2040C-B1CD-42C8-AD4A-09F6009D9E27}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2057809328",
+    "Type": "Event",
+    "GUID": "{4DDB1CEE-288A-427A-A60E-A16810578DC7}",
+    "Language": "SFX",
+    "Hash": "{2971EC2B-77AA-25EA-43CC-A4163C29B3C3}",
+    "ObjectPath": "TestYeah",
+    "ShortName": "TestYeah",
+    "Path": "Event/TestYeah.bnk",
+    "Media": [
+     {
+      "Id": "54440579",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "S_Yeah.WAV",
+      "Path": "Media/54440579.wem",
+      "CachePath": "9B/{9B0424B1-32B9-4E11-1786-DF6807DA468F}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2057809328",
+      "Name": "TestYeah",
+      "ObjectPath": "\\Events\\Default Work Unit\\TestYeah",
+      "GUID": "{4DDB1CEE-288A-427A-A60E-A16810578DC7}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.2043538",
+      "DurationMax": "3.2043538",
+      "MediaRefs": [
+       {
+        "Id": "54440579"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{97207749-438F-53D3-4EBD-1D981EDA24AD}"
+ }
+}

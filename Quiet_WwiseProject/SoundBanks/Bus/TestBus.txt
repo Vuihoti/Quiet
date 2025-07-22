@@ -1,0 +1,6 @@
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	1966988073	TestBus			\Default Work Unit\Master Audio Bus\TestBus	
+
+Effect plug-ins	ID	Name	Type				Notes
+	2171127646	Hall_Conversation	Wwise RoomVerb			
+

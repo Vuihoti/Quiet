@@ -1,0 +1,64 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3161908922",
+    "Type": "User",
+    "GUID": "{DCF9472B-5799-460A-9DF2-C1FE3A0618A1}",
+    "Language": "SFX",
+    "Hash": "{92D7F396-D759-B61B-AF07-9FB151C085AF}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
+    "ShortName": "Main",
+    "Path": "Main.bnk",
+    "Media": [
+     {
+      "Id": "265216636",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "郭易YoYo - 羊羊顶呱呱.wav",
+      "CachePath": "5E/{5E579D12-4248-4909-08EC-AC5FF73F5C08}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "162098726",
+      "Name": "Environment_EV",
+      "ObjectPath": "\\Events\\Default Work Unit\\Environment_EV",
+      "GUID": "{A119BB48-7297-4DF1-88CF-ED72C2AD48BC}",
+      "MaxAttenuation": "3600",
+      "DurationType": "OneShot",
+      "DurationMin": "170.73633",
+      "DurationMax": "170.73633",
+      "MediaRefs": [
+       {
+        "Id": "265216636"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1966988073",
+        "Name": "TestBus",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\TestBus",
+        "GUID": "{654F5DB5-82A1-4F08-913D-9DBECC431B75}"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "3987480799",
+      "Name": "BackgroundVolume",
+      "ObjectPath": "\\Game Parameters\\Volume\\BackgroundVolume",
+      "GUID": "{D479346D-6A36-47D7-9E21-3814EADA27A8}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D57BED6B-77DA-F745-9174-87D550815015}"
+ }
+}

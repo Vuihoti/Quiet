@@ -1,0 +1,115 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1387509567",
+    "Type": "Event",
+    "GUID": "{614C6C6C-FF1E-4667-8526-91BF192DE72C}",
+    "Language": "SFX",
+    "Hash": "{12B42EAD-47D3-8E61-4A3A-05E132F68CE1}",
+    "ObjectPath": "Play_Enemy01",
+    "ShortName": "Play_Enemy01",
+    "Path": "Event/Play_Enemy01.bnk",
+    "Media": [
+     {
+      "Id": "1006332528",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AI01_Hunt.wav",
+      "Path": "Media/1006332528.wem",
+      "CachePath": "67/{6733BA49-53BF-21CF-9563-3F0206DE3565}.wem"
+     },
+     {
+      "Id": "1026105814",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AI01_Normal.wav",
+      "Path": "Media/1026105814.wem",
+      "CachePath": "3C/{3CEED1A6-3983-A59A-F0DE-23A79FB44BA7}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1387509567",
+      "Name": "Play_Enemy01",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Enemy01",
+      "GUID": "{614C6C6C-FF1E-4667-8526-91BF192DE72C}",
+      "MaxAttenuation": "3400",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2863913182",
+         "Id": "3126836862",
+         "GUID": "{87A2040C-B1CD-42C8-AD4A-09F6009D9E27}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "1006332528"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2863913182",
+         "Id": "1160234136",
+         "GUID": "{7C7BE2E7-4F87-4390-B584-52E37EF9748D}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "1026105814"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1613907064",
+      "Name": "MuteVolume",
+      "ObjectPath": "\\Game Parameters\\Volume\\MuteVolume",
+      "GUID": "{8A09063C-1C64-4ED8-B094-A86FA5B85E57}"
+     },
+     {
+      "Id": "1985131783",
+      "Name": "SoundEffectVolume",
+      "ObjectPath": "\\Game Parameters\\Volume\\SoundEffectVolume",
+      "GUID": "{D9208335-2DA6-45C1-B97E-861B14B9EAB6}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2863913182",
+      "Name": "Enemy01Switch",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Enemy01Switch",
+      "GUID": "{F10A5382-1A89-4D35-BC02-FEA2410BB058}",
+      "Switches": [
+       {
+        "Id": "1160234136",
+        "Name": "Normal",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Enemy01Switch\\Normal",
+        "GUID": "{7C7BE2E7-4F87-4390-B584-52E37EF9748D}"
+       },
+       {
+        "Id": "3126836862",
+        "Name": "Hunt",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Enemy01Switch\\Hunt",
+        "GUID": "{87A2040C-B1CD-42C8-AD4A-09F6009D9E27}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{3DC90B4C-CEBF-22B0-ABB4-C62EAA5D3303}"
+ }
+}

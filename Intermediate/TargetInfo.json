@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Quiet",
+			"Path": "..\\Source\\Quiet.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "QuietEditor",
+			"Path": "..\\Source\\QuietEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	162098726	Environment_EV			\Default Work Unit\Environment_EV	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	265216636	EVTest	F:\Quiet\Quiet_WwiseProject\.cache\5E\{5E579D12-4248-4909-08EC-AC5FF73F5C08}.wem		\Actor-Mixer Hierarchy\Default Work Unit\EVTest		30117984
+
